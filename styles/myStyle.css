@@ -1,0 +1,1090 @@
+﻿body {
+    text-align: right;
+    color: #404040;
+    direction: rtl;
+    font-family: Rubik, sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(201,241,246,1) 100%);
+    background-repeat: no-repeat;
+    font-family: Rubik, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.softedge {
+    border-radius: 3px;
+}
+
+.zindex10 {
+    z-index: 10;
+}
+
+.ltr {
+    /*padding-left: 100px;*/
+    /*text-align: left;
+    direction: ltr;*/
+    padding-right: 1160px;
+}
+
+.lesstop {
+    position: absolute;
+    top: -40px;
+    right: 135px;
+}
+
+.PopUpAll {
+    position: absolute;
+    top: 33%;
+    left: 34%;
+    background-color: white;
+    border-radius: 8px;
+    width: 415px;
+    height: 189px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.PopUpprevie {
+    position: absolute;
+    top: 33%;
+    left: 34%;
+    background-color: white;
+    border-radius: 8px;
+    width: 415px;
+    height: 250px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.PopUpAnswerText {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    background-color: white;
+    border-radius: 25px;
+    width: 440px;
+    height: 255px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.PopUpAnswerPicture {
+    position: absolute;
+    top: 33%;
+    left: 32%;
+    background-color: white;
+    border-radius: 25px;
+    width: 550px;
+    height: 265px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.DelGred {
+    background-image: linear-gradient(#ddf3f5, white 55%);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: -100px;
+    right: 27%;
+    padding-bottom: 20px;
+}
+.DelGred2 {
+    background-image: linear-gradient(#ddf3f5, white 55%);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: 350px;
+    right: 42%;
+    padding-bottom: 20px;
+}
+
+.CreatGred {
+    background-image: linear-gradient(#FFE699, white 45%);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: absolute;
+    top: -100px;
+    right: 27%;
+   padding-bottom:20px;
+}
+
+.background1 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    background-color: white;
+    opacity: 0.6;
+    width: 100%;
+    height: 400%;
+    z-index: 900;
+}
+
+.background0 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    background-color: white;
+    opacity: 0.01;
+    width: 100%;
+    height: 400%;
+    z-index: 900;
+}
+
+.SaveBTN:hover {
+    background-color: #8BE1ED;
+    cursor: pointer;
+}
+
+.SaveBTN {
+    position: relative;
+    background-color: #2AC9DE;
+    border-radius: 30px;
+    padding: 7px 15px 7px 15px;
+    border-style: none;
+    font-family: Rubik;
+    z-index:10;
+}
+
+    .backBTN:hover {
+        background-color: #8BE1ED;
+        cursor: pointer;
+    }
+
+.backBTN {
+    position: relative;
+    background-color: #2AC9DE;
+    border-radius: 30px;
+    padding: 7px 15px 7px 15px;
+    border-style: none;
+    font-family: Rubik;
+    /*z-index: 10;*/
+}
+
+
+    .SaveEditBTN:hover {
+        background-color: #8BE1ED;
+        cursor: pointer;
+    }
+
+.SaveEditBTN {
+    position: relative;
+    background-color: #2AC9DE;
+    border-radius: 50px;
+    padding: 12px 27px 12px 27px;
+    font-size:21px;
+    border-style: none;
+    font-family: Rubik;
+    z-index: 10;
+    right:1295px;
+    top:-50px;
+}
+
+.CancelBTN:hover {
+    background-color: #FCDBD4;
+    cursor: pointer;
+}
+.CancelBTN {
+    position: relative;
+    background-color: #F9BAAD;
+    border-radius: 30px;
+    padding: 7px 15px 7px 15px;
+    border-style: none;
+    font-family: Rubik;
+    z-index: 10;
+}
+
+#creathover:hover ~ #CreatGame {
+    background-color: #FCEBBC;
+    cursor: pointer;
+}
+
+.CreatGameBTN:hover {
+    background-color: #FCEBBC;
+    cursor:pointer;
+}
+.CreatGameBTN {
+    text-align: left;
+    position: relative;
+    background-color: #F9D362;
+    font-size: 15pt;
+    border-radius: 30px;
+    padding: 10px 40px 10px 20px;
+    border-style: none;
+    font-family: Rubik;
+    top: -50px;
+    left: 0px;
+}
+
+
+    .GoBackBTN:hover {
+        background-color: #FCEBBC;
+        cursor: pointer;
+    }
+
+.GoBackBTN {
+    position: relative;
+    background-color: #F9D362;
+    font-size: 15pt;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    font-family: Rubik;
+    top: -50px;
+    left: 0px;
+}
+
+
+.bigSizeFont {
+    font-size: 34pt;
+    padding-right: 150px;
+    color: #7B8283;
+}
+
+
+.gridList {
+    position: relative;
+    margin: 50px;
+    width: 1200px;
+    right: 110px;
+    top: -60px;
+}
+
+.content {
+    position:relative;
+    right:110px;
+    margin-top: 30px;
+    margin-left: 40px; /*------------------------------------------------------------------------------not using anymore---------------------------------------------------------------------------*/
+    margin-right: 40px;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px gray;
+    text-align:center;
+}
+
+/*------------------------------------------------------------------------*/
+
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#gameArea {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    background-color: #EBEAE4;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    direction: rtl;
+    display: block;
+    direction: rtl;
+    z-index: 3;
+}
+
+/*לוגו*/
+#logo {
+    width: 40px;
+    height: 40px;
+    padding: 5px 15px;
+    direction: rtl;
+    float: right;
+}
+
+
+.instructions {
+    position: relative;
+    width: 750px;
+    height: 420px;
+}
+
+.closeHowToPlay {
+    cursor: pointer;
+}
+
+.closeAbout {
+    cursor: pointer
+}
+
+    .closeAbout:hover .exit {
+        opacity: 0.5;
+    }
+
+.closeHowToPlay:hover .exit {
+    opacity: 0.5;
+}
+
+.exit {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.closeHowToPlay:hover .exit2 {
+    opacity: 0.5;
+}
+
+
+.exit2 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    top: -430px;
+    right: 350px;
+    z-index: 10;
+}
+
+.information {
+    position: relative;
+    width: 680px;
+    height: 490px;
+    top: 70px;
+    right: -30px;
+}
+
+.information2 {
+    position: relative;
+    width: 680px;
+    height: 490px;
+}
+
+.sound {
+    position: relative;
+    top: 18px;
+    right: 2px;
+    font-family: Rubik;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+}
+
+    .sound a:visited {
+        color: purple;
+    }
+
+    .sound a:hover {
+        opacity: 0.6;
+    }
+
+    .sound a {
+        color: darkblue;
+    }
+
+
+.sound2 {
+    position: relative;
+    top: -69px;
+    right: 2px;
+    font-family: Rubik;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+}
+
+.sound2 a:visited {
+    color: purple;
+}
+
+.sound2 a:hover {
+    opacity: 0.6;
+}
+
+.sound2 a {
+    color: darkblue;
+}
+
+.telem {
+    position: relative;
+    top: -50px;
+    right: 5px;
+    font-family: Rubik;
+    font-size: 15pt;
+    color: black;
+    font-weight: normal;
+}
+
+    .telem a:visited {
+        color: purple;
+    }
+
+    .telem a:hover {
+        opacity: 0.6;
+    }
+
+    .telem a {
+        color: darkblue;
+    }
+
+.telem2 {
+    position: relative;
+    top: -50px;
+    right: 5px;
+    font-family: Rubik;
+    font-size: 15pt;
+    color: black;
+    font-weight: normal;
+}
+
+    .telem2 a:visited {
+        color: purple;
+    }
+
+    .telem2 a:hover {
+        opacity: 0.6;
+    }
+
+    .telem2 a {
+        color: darkblue;
+    }
+
+nav {
+    margin-top: -70px;
+    margin-left: 10px;
+    direction: rtl;
+    background-color: #B8D6D9;
+}
+
+    nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: left;
+            direction: rtl;
+        }
+
+            nav ul li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 10px 10px;
+                font-weight: 400;
+                font-size: 12pt;
+                font-family: Rubik, sans-serif;
+                direction: rtl;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-family: Rubik, sans-serif;
+                    direction: rtl;
+                    text-decoration: none;
+                }
+
+.popUp {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    position: fixed;
+    top: 60px;
+    z-index: 4;
+    text-align: center;
+    width: 800px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 25px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    border: 1px solid black;
+}
+
+closeHowToPlay:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.headsize {
+    width: 300px;
+}
+
+.headsizetop {
+    width: 300px;
+}
+
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+
+/*עמוד התחברות*/
+
+/*מסגרת חבלים*/
+/*#frameLogin {
+    margin: 0px auto;
+    display: table;
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/frameLogin.png');
+    background-size: 100% 100%;
+    text-align: center;
+}*/
+
+#frameLogin > div {
+    margin-top: 20px;
+}
+/*מרכוז*/
+#formLogin {
+    position: relative;
+    margin: auto auto;
+    display: table;
+    z-index: 99999;
+    right:40px;
+    top:50px;
+}
+
+    /*שם משתמש וסיסמה בבולד*/
+    #formLogin form > span {
+        font-weight: bold;
+        font-size: 21pt;
+    }
+    /*כפתור כניסה*/
+    #formLogin #loginBtn {
+        position: relative;
+        color: black;
+        background-color: #2AC9DE;
+        border-radius: 30px;
+        border: 6px;
+        width: 90px;
+        height: 35px;
+        box-shadow: 1px 2px grey;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+        font-family: Rubik;
+        font-weight: normal;
+        font-size: 21pt;
+        left:47px;
+    }
+
+        /*כפתור כניסה מעבר עכבר*/
+        #formLogin #loginBtn:hover {
+            color: black;
+            background-color: #8BE1ED;
+            border-radius: 30px;
+            border: 6px;
+            width: 90px;
+            height: 35px;
+            box-shadow: 1px 2px grey;
+            margin: 0 auto;
+            display: block;
+            cursor: pointer;
+            font-family: Rubik;
+            font-weight: normal;
+            font-size: 21pt;
+        }
+
+/*משוב למשתמש*/
+#labelFeedback {
+    position:relative;
+    color: red;
+    text-align: center;
+    display: block;
+    left:45px;
+}
+
+#loginImage > div {
+    margin: auto auto;
+    display: table;
+    top: -50px;
+    margin-right: 60px;
+    z-index: 99999;
+}
+
+#loginDivers {
+    position: relative;
+    width: 230px;
+    height: 280px;
+    left: 20px;
+}
+
+#loginHead {
+    position: relative;
+    margin: auto auto;
+    display: table;
+    /*top: -50px;
+    bottom: 20px;*/
+    margin-left: 80px;
+    z-index: 99999;
+    color: #7B8283;
+    font-size: 34pt;
+    left:6px;
+}
+
+
+.uploadpic {
+    position: relative;
+    right: 180px;
+    top: -130px;
+}
+
+
+#FileUpload1 {
+    visibility: hidden;
+    width: 1px;
+}
+
+.CoinPreview {
+    position: absolute;
+    z-index: 100;
+    right: 230px;
+    top: 10px;
+}
+
+.picPreview {
+    position: absolute;
+    z-index: 50;
+    right: 233px;
+    top: 19.5px;
+}
+
+.previewmyPanel {
+    position: absolute;
+    top: 33%;
+    left: 44%;
+    background-color: white;
+    border-radius: 25px;
+    width: 250px;
+    height: 260px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.previewBackground {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    background-color: white;
+    opacity: 0.6;
+    width: 100%;
+    height: 200%;
+    z-index: 999;
+}
+
+.answerpreview {
+    position: absolute;
+    top: 35px;
+    right: 75px;
+    z-index: 4;
+}
+
+.CoinPreview2 {
+    position: absolute;
+    z-index: 100;
+    right:67px;
+    top:55px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 350px;
+        height: 35px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-style: solid;
+        border-radius: 2px;
+        border-color: black;
+        border-width: 1.5px;
+        clip-path: polygon(7% 0%, 7% 30%, 0% 50%, 7% 70%, 7% 100%, 100% 100%, 100% 0%);
+        box-shadow: 0px 0px 3px 0px gray;
+        padding: 5px 0;
+        position: absolute;
+        left:980%;
+        z-index: 1;
+        top:-20px;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+
+
+    /*מסגרת שחורה בשביל ה-tooltip*/
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+}
+
+    .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        width: 355px;
+        height: 40px;
+        background-color: #404040;
+        color: black;
+        text-align: center;
+        border-style: solid;
+        border-radius: 2px;
+        border-color: black;
+        border-width: 1.5px;
+        clip-path: polygon(7% 0%, 7% 30%, 0% 50%, 7% 70%, 7% 100%, 100% 100%, 100% 0%);
+        box-shadow: 0px 0px 3px 0px gray;
+        right: -601px;
+        top: -21px;
+        padding:3.5px 0px;
+
+        position: absolute;
+        z-index: 0;
+        left: 1800%;
+    }
+
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+}
+
+
+
+.cropped {
+    width: 82px; /* width of container */
+    height: 82px; /* height of container */
+    object-fit: cover;
+    /*border: 5px solid black;*/
+}
+
+.EditTitle {
+    font-size: 34pt;
+    padding-right: 150px;
+    color: #7B8283;
+}
+
+.greyround {
+    background-color: #EAEAEA;
+    border-radius: 90px;
+    padding: 45px 15px 45px 10px;
+    width: 1360px;
+    height: 25px;
+    z-index: 1;
+    position: relative;
+    right: 80px;
+    opacity: 0.6;
+}
+
+.greyround2 {
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    padding: 1px 20px 1px 2px;
+    width: 350px;
+    height: 100px;
+    z-index: 1;
+    position: relative;
+    right: 575px;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.gameNameAndQ{
+    position:relative;
+    right:250px;
+    top:-70px;
+    z-index:3;
+    font-size:21px;
+}
+
+.CharCount{
+    top:-270px;
+    position:relative;
+    font-size:13px;
+    right:100px;
+    z-index:3;
+}
+
+.answerNumb{
+    position:relative;
+    font-size:21px;
+    right:575px;
+    top:-20px;
+}
+
+.addAnswer {
+    width:550px;
+    position: relative;
+    right: 630px;
+    top: -75px;
+    z-index: 3;
+}
+
+.grid1 {
+    position: relative;
+    right: 220px;
+    float: right;
+    z-index:100;
+    font-size:14pt;
+}
+
+.grid2 {
+    position: relative;
+    right: 420px;
+    top: 0px;
+    font-size: 14pt;
+}
+
+.red {
+    border-color: #C55A11;
+}
+
+.green {
+    border-color: #00B050;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.editanswertitle {
+    font-size: 34px;
+    color: #595959;
+}
+
+.checkboxresize {
+    position:relative;
+    right:10px;
+    top:2.5px;
+}
+
+                        
+
+.disabledbtn {
+    background-color: #D9D9D9;
+    cursor: not-allowed;
+    position: relative;
+    border-radius: 30px;
+    padding: 7px 15px 7px 15px;
+    border-style: none;
+    font-family: Rubik;
+    z-index: 10;
+}
+
+.opacity {
+    opacity: 0.75;
+}
+
+/*input[type=checkbox][disabled] {
+    cursor:help;
+}*/
+/*
+input[type=checkbox][enabled] {
+    cursor: pointer;
+}*/
+
+
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+
+    .tooltip3 .tooltiptext3 {
+        visibility: hidden;
+        width: 220px;
+        background-color: white;
+        border-color: #353535;
+        border-style: solid;
+        border-width: 2px;
+        color: #353535;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -2px;
+        left: 100%;
+
+    }
+
+        .tooltip3 .tooltiptext3::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 101%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent #353535 transparent transparent;
+        }
+
+    .tooltip3:hover .tooltiptext3 {
+        visibility: visible;
+    }
+
+
+/*input[type=checkbox][disabled] .tooltiptext3 {
+    visibility: visible;
+}
+
+.tooltiptext3 {
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+    border-color: #353535;
+    border-style: solid;
+    border-width: 2px;
+    color: #353535;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 100%;
+}*/
+.mygrid{
+    position: relative;
+    left: 10%!important;
+}
+#questionmark{
+    font-size:20pt;
+}
+#DropDownList1 {
+    font-family:Rubik;
+    font-size: 15pt;
+}
+.itemsize{
+    font-size:14pt;
+}
+
+.myz1{
+z-index:-1;
+}
+
+.myz2{
+    z-index: 5;
+}

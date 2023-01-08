@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gold Diver</title>
+    <meta name="description" content="name of game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header style="margin-top:-15px;">
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <div class="headsizetop">
+                <a href="index.html" class="headsize">
+                    <img src="images/diver logo.png" id="logo" />  <!--הלוגו של המשחק שלכם-->
+                    <p class="headsize"> <img src="images/name logo.png" width="170" height="50" /> </p>
+                </a>
+            </div>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                    <li><a href="login.aspx">לעורך</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">
+                <img src="images/exit.png" class="exit" />
+            </a>
+            <p>
+                <img src="images/about.png" class="information2" />
+                <div class="sound2"><a href="https://freemusicarchive.org/music/Scanglobe/fade-remix/undulation-remix"> Scanglobe </a></div>
+                <div class="telem2"><a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a></div>
+            </p>
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">
+                <img src="images/exit.png" class="exit" />
+            </a>
+
+            <p>
+                <img src="images/howtoplay2.png" class="instructions" />
+            </p>
+
+        </div>
+
+        <div id="gameArea" class="" style="height:702px; width:1281px;">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="gold diver game.html" frameBorder="0" allowfullscreen="" >Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
